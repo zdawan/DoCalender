@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "@/public/logo.png";
+import { AuthModal } from "./AuthModal";
 
 export function Navbar() {
   //Link helps to avoid loading on redirects and prefetching
@@ -13,7 +14,7 @@ export function Navbar() {
         </h4>
       </Link>
 
-      <button>Get started today</button>
+      <AuthModal />
     </div>
   );
 }
