@@ -11,6 +11,7 @@ export function Navbar() {
         <Image src={Logo} alt="Logo" className="size-10" />
         <h4 className="text-2xl font-semibold">
           Do<span className="text-blue-600">Calender</span>
+          <h3>DoMeet Scheduler</h3>
         </h4>
       </Link>
 
